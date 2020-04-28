@@ -108,9 +108,11 @@ header img {
   border-bottom: 2px solid #788086;
   padding-bottom: 40px;
 }
-.maincontent img {
-
-}
+  .maincontent img {
+    width: 250px;
+    height: 200px;
+    margin-right: 20px;
+  }
 .maincontent .workcontent {
   width: 40vw;
   text-align: left;
