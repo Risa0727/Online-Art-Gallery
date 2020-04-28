@@ -1,0 +1,117 @@
+﻿@charset "utf-8"; 
+/**
+  reset css 
+*/
+* {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+p {
+  line-height: 180%;
+}
+/**
+  main part
+*/
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Bookman Old Style', "Times New Roman", Times, sans-serif;
+  font-size: 16px;
+  /*margin: 0;*/
+  color: #313131;
+  background-color: white;
+}
+#wrapper {
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  text-align: center;
+}
+
+/**
+  Header 
+*/
+header {
+  width: 100%;
+  background: url(./images/hp_header.jpg) center top no-repeat;
+  background-size: 100%;
+  padding: 15% 0;
+  text-align: center;
+  /*font-family: 'Roboto', sans-serif;*/
+  color: white;
+  display: table;
+}
+header .inner {
+  display: table-cell;/* this is for vertical align*/
+  vertical-align: middle;
+}
+header h1 {
+  font-size: 600%;
+  font-weight: 600;
+}
+header #branding {
+  font-size: 200%;
+  font-weight: 200;
+  margin-top: 2%;
+}
+/** 
+  Navigation
+*/
+header nav ul {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, .9);
+  align-items: center;
+}
+header nav ul li {
+  padding: 1.5% 0;
+}
+header nav a {
+    text-decoration: none;
+    color: #012846;
+    font-size: 140%;
+    margin: 0 20px;
+}
+header .logo {
+  margin-right: auto;
+}
+header img {
+  width: 100px;
+  height: auto;
+}
+/**
+  main 
+*/
+.intro {
+  width: 70vw;/* view point width */
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 2px solid #012846;
+  padding: 70px;
+}
+.intro #slogan {
+  color: #012846;
+  font-size: 130%;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/**
+  footer
+*/
+footer {
+  /*border-top: 2px solid #788086;*/
+  background-color: #3e3e3e;
+  color: white;
+  margin-top: 5px;
+  padding: 5px 0;
+}
