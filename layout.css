@@ -13,7 +13,7 @@ p {
   line-height: 180%;
 }
 /**
-  main part
+  Common settings
 */
 body {
   width: 100%;
@@ -30,7 +30,37 @@ body {
   height: auto;
   text-align: center;
 }
-
+h1 {
+  font-size: 300%;
+  font-weight: 300;
+  /*width: 60%;*/
+  display: inline-block;
+}
+h1.header-line {
+  margin: 0 auto;
+  margin-bottom: 2%;
+  border-bottom: 3px solid rgba(0, 0, 0, .32);
+  padding-bottom: 1%;
+  position: relative;
+}
+h1.header-line:before {
+  content: "";
+  width: 40px;
+  height: 3px;
+  background-color: rgba(255, 101, 55, 0.93);
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+}
+p {
+  font-size: 110%;
+  width: 65%;
+  rgba(0, 0, 0, .32);
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: left;
+}
 /**
   Header 
 */
@@ -166,20 +196,21 @@ footer {
 }
 
 /**
-  Product
+  Product page
 */
 #product-table {
   border-collapse: collapse;
   margin: 0 auto;
+  margin-top: 3vw;
 }
+#product-table tr:nth-child(even),
 #product-table th {
-  padding-bottom: 5px;
-  border-bottom: 1px solid #808080;
+  border-bottom: dashed 3px  rgba(0, 0, 0, .32);
 }
 .table-img {
   vertical-align: top;
   width: 300px;
-  background: #f0e68c;
+  /*background: #f0e68c;*/
 
 }
 .table-img > img {
