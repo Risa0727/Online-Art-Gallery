@@ -14,9 +14,9 @@ namespace ICT272_assessment1
       // get post data
       System.Collections.Specialized.NameValueCollection data = Request.Form;
       // check if post data exists
-      if (!string.IsNullOrWhiteSpace(data["fNmaeBox"]))
+      if (!string.IsNullOrWhiteSpace(data["nameBox"]))
       {
-        name.Text = data["fNmaeBox"];
+        name.Text = data["nameBox"];
       } else
       {
         name.Text = "Dear customer";

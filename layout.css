@@ -1,4 +1,10 @@
-﻿@charset "utf-8"; 
+﻿@charset "utf-8";
+/**
+  theme color
+  red color: rgba(255, 101, 55, 0.93);
+  Gray color: rgba(0, 0, 0, .32);
+
+*/
 /**
   reset css 
 */
@@ -230,8 +236,70 @@ footer {
 /**
   Contact page
 */
-.contact-info {
+.contact-info p {
   text-align: center;
+}
+#form-section {
+  padding: 15px;
+  margin: 20px 0;
+}
+#form-section .form-item {
+	border: medium none !important;
+	margin: 0 auto;
+  margin-bottom: 15px;
+	min-width: 50%;
+	padding: 0;
+	width: 50%;
+}
+#form-section #nameBox, #form-section #mailBox,
+#form-section #phoneBox, #form-section #commentBox {
+  width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+#nameBox::placeholder {
+  color: red;
+}
+#form-section #commentBox {
+  height: 80px;
+  resize: none;
+  /*margin:10px 0px 10px 0px;*/
+}
+
+input[type='text']:focus {
+  border: 1px solid rgba(255, 101, 55, 0.93);
+  outline: none;
+  box-shadow: 0 0 5px 1px rgba(218,60,65, .5);
+}
+  #submitBtn {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: rgba(255, 101, 55, 0.93);
+  background-color: white;
+  border: dashed 1px rgba(255, 101, 55, 0.93);
+  border-radius: 3px;
+  transition: .4s;
+}
+#submitBtn:hover {
+  border-style: dotted;
+  color: rgba(255, 101, 55, 0.93);
+  background-color: rgba(167, 167, 167, 0.2);
+}
+#office-info h2 {
+  margin-bottom: 27px;
+  padding-top: 50px;
+  border-top: dashed 3px rgba(0, 0, 0, .32);
+}
+#office-info table {
+  margin: 0 auto;
+}
+#office-info table th,
+#office-info table td {
+  height: 30px;
+  text-align: left;
 }
 /**
   Thankyou page

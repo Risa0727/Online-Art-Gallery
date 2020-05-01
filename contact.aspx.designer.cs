@@ -22,49 +22,13 @@ namespace ICT272_assessment1 {
         protected global::System.Web.UI.HtmlControls.HtmlForm contactForm;
         
         /// <summary>
-        /// firstName control.
+        /// nameBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label firstName;
-        
-        /// <summary>
-        /// fNmaeBox control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox fNmaeBox;
-        
-        /// <summary>
-        /// lastName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lastName;
-        
-        /// <summary>
-        /// lNameBox control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox lNameBox;
-        
-        /// <summary>
-        /// mail control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label mail;
+        protected global::System.Web.UI.WebControls.TextBox nameBox;
         
         /// <summary>
         /// mailBox control.
@@ -76,13 +40,13 @@ namespace ICT272_assessment1 {
         protected global::System.Web.UI.WebControls.TextBox mailBox;
         
         /// <summary>
-        /// Comment control.
+        /// phoneBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Comment;
+        protected global::System.Web.UI.WebControls.TextBox phoneBox;
         
         /// <summary>
         /// commentBox control.
@@ -94,12 +58,12 @@ namespace ICT272_assessment1 {
         protected global::System.Web.UI.WebControls.TextBox commentBox;
         
         /// <summary>
-        /// submit control.
+        /// submitBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button submit;
+        protected global::System.Web.UI.WebControls.Button submitBtn;
     }
 }

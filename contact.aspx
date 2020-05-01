@@ -26,16 +26,33 @@
         <p>Contact us about anything related to our services and products.</p>
         <p>And we will be in touch.</p>
       </section>
-      <section>
+      <section id="form-section">
         <form id="contactForm" runat="server">
           <div>
-            <asp:Label ID="firstName" runat="server" Text="First Name"></asp:Label><asp:TextBox ID="fNmaeBox" runat="server"></asp:TextBox>
-            <asp:Label ID="lastName" runat="server" Text="Last Name"></asp:Label><asp:TextBox ID="lNameBox" runat="server"></asp:TextBox>
-            <asp:Label ID="mail" runat="server" Text="Email"></asp:Label><asp:TextBox ID="mailBox" runat="server"></asp:TextBox>
-            <asp:Label ID="Comment" runat="server" Text="Comment"></asp:Label><asp:TextBox ID="commentBox" runat="server"></asp:TextBox>
+            <div class="form-item"><asp:TextBox ID="nameBox" placeholder="Your Name" runat="server"></asp:TextBox></div>
+            <div class="form-item"><asp:TextBox ID="mailBox" placeholder="Your Email Address" runat="server"></asp:TextBox></div>
+            <div class="form-item"><asp:TextBox ID="phoneBox" placeholder="Your Phone Number" runat="server"></asp:TextBox></div>
+            <div class="form-item"><asp:TextBox ID="commentBox" placeholder="Type your Message Here...." runat="server"></asp:TextBox></div>
           </div>
-          <asp:Button ID="submit" runat="server" Text="Submit" OnClick="submit_Click" PostBackUrl="~/thankyou.aspx" />
+          <div class="form-item"><asp:Button ID="submitBtn" runat="server" Text="Submit" OnClick="submit_Click" PostBackUrl="~/thankyou.aspx" /></div>
         </form>
+      </section>
+      <section id="office-info">
+        <h2>Our Office</h2>
+        <table>
+		      <tr>
+			      <th>Address</th><td>17 O'Connell, Sydney, Australia</td>
+		      </tr>
+		      <tr>
+			      <th>Email</th><td>info@risa.com.au</td>
+		      </tr>
+		      <tr>
+			      <th>Phone</th><td>0727 0727</td>
+		      </tr>
+		      <tr>
+			      <td colspan="2" id="map"><img src="./images/map.jpg" alt="Map of Office" /></td>
+		      </tr>	
+		  </table>
       </section>
     </main>
     <footer>
