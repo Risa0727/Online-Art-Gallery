@@ -59,11 +59,13 @@ h1.header-line:before {
 }
 p {
   font-size: 110%;
-  width: 65%;
-  rgba(0, 0, 0, .32);
-  margin: 0 auto;
+  width: 54%;
+  color: rgba(0, 0, 0, .70);
   margin-bottom: 20px;
   text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
 }
 
 /**
@@ -224,4 +226,19 @@ footer {
 }
 .emphasize {
   margin: 10px auto;
+}
+/**
+  Contact page
+*/
+.contact-info {
+  text-align: center;
+}
+/**
+  Thankyou page
+*/
+.thankyou-info h2 {
+  margin-bottom: 27px;
+}
+.thankyou-info p {
+  text-align: center;
 }
