@@ -4,6 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.png" />
     <title>Art Gallery</title>
   <link href="layout.css" rel="stylesheet" type="text/css" />
 </head>

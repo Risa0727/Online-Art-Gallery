@@ -65,12 +65,12 @@ h1.header-line:before {
 }
 p {
   font-size: 110%;
-  width: 54%;
+  /*width: 54%;*/
   color: rgba(0, 0, 0, .70);
   margin-bottom: 20px;
   text-align: left;
-  margin-left: auto;
-  margin-right: auto;
+  /*margin-left: auto;
+  margin-right: auto;*/
   margin-top: 0;
 }
 
@@ -160,8 +160,8 @@ header img {
   padding-bottom: 40px;
 }
   .maincontent img {
-    width: 250px;
-    height: 200px;
+    width: 350px;
+    height: 280px;
     margin-right: 20px;
   }
 .maincontent .workcontent {
@@ -207,10 +207,22 @@ footer {
 .lineLtoR:hover::after {
   transform: scale(1, 1);
 }
-
+/**
+  About Us page
+*/
+.about-info p {
+  width: 54%;
+  margin-left: auto;
+  margin-right: auto;
+}
 /**
   Product page
 */
+.product-info p {
+  width: 54%;
+  margin-left: auto;
+  margin-right: auto;
+}
 #product-table {
   border-collapse: collapse;
   margin: 0 auto;
