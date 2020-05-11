@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ICT272_assessment1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.png" />
+  <title>Art Gallery</title>
+  <link href="layout.css" rel="stylesheet" type="text/css">
+<%--    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>--%>
+</head>
+<body>
+    <form id="form1" runat="server">
+      <div id="wrapper">
+        <header>
+          <nav>
+            <ul>
+              <li class="logo"><a href="index.html"><img src="./images/logo.png" alt="logo"></a></li>
+              <li><a href="index.html" class="lineLtoR">Home</a></li>
+              <li><a href="./about.html" class="lineLtoR">About Us</a></li>
+              <li><a href="./product.html" class="lineLtoR">Products</a></li>
+              <li><a href="./contact.aspx" class="lineLtoR">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="inner">
+            <h1>Online Art Gallery</h1>
+            <h2 id="branding">Creating awesomeness</h2>
+          </div>
+        </header>
+        <main>
+          <div>
+            <asp:ContentPlaceHolder ID="MainHolder" runat="server">
+             </asp:ContentPlaceHolder>
+          </div>
+        </main>
+          <footer>
+            <address>Copyright&copy; Risa 2020, All rights Reserved.</address>
+          </footer>
+      </div><%-- wrapper --%>
+    </form>
+</body>
+</html>
