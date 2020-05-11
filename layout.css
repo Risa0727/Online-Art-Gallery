@@ -149,12 +149,15 @@ header img {
   border-bottom: 2px solid #012846;
   padding: 70px;
 }
-  .intro #slogan {
-    color: #012846;
-    font-size: 130%;
-    font-weight: 600;
-    margin-bottom: 20px;
-  }
+.intro #slogan {
+  color: #012846;
+  font-size: 130%;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.intro p {
+  text-align: center;
+}
 .maincontent {
   border-bottom: 2px solid #788086;
   padding-bottom: 40px;
