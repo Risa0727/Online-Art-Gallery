@@ -10,16 +10,7 @@
 namespace ICT272_assessment1 {
     
     
-    public partial class contact {
-        
-        /// <summary>
-        /// contactForm control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm contactForm;
+    public partial class Contact {
         
         /// <summary>
         /// nameBox control.

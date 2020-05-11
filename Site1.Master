@@ -8,8 +8,8 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.png" />
   <title>Art Gallery</title>
   <link href="layout.css" rel="stylesheet" type="text/css">
-<%--    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>--%>
+  <asp:ContentPlaceHolder ID="head" runat="server">
+  </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -17,11 +17,11 @@
         <header>
           <nav>
             <ul>
-              <li class="logo"><a href="index.html"><img src="./images/logo.png" alt="logo"></a></li>
-              <li><a href="index.html" class="lineLtoR">Home</a></li>
-              <li><a href="./about.html" class="lineLtoR">About Us</a></li>
-              <li><a href="./product.html" class="lineLtoR">Products</a></li>
-              <li><a href="./contact.aspx" class="lineLtoR">Contact</a></li>
+              <li class="logo"><a href="Index.aspx"><img src="./images/logo.png" alt="logo"></a></li>
+              <li><a href="Index.aspx" class="lineLtoR">Home</a></li>
+              <li><a href="./About.aspx" class="lineLtoR">About Us</a></li>
+              <li><a href="./Product.aspx" class="lineLtoR">Products</a></li>
+              <li><a href="./Contact.aspx" class="lineLtoR">Contact</a></li>
             </ul>
           </nav>
           <div class="inner">

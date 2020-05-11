@@ -1,0 +1,20 @@
+﻿/**
+  theme color
+  red color: rgba(255, 101, 55, 0.93);
+  Gray color: rgba(0, 0, 0, .32);
+
+*/
+/*
+  This style adapt all files except Index.aspx
+*/
+/**
+  Header
+*/
+/** all page has NO hero images except for toppage */
+header {
+  background: none;
+  padding: 7% 0;
+}
+header .inner {
+  display: none;
+}

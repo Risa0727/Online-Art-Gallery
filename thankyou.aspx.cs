@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace ICT272_assessment1
 {
-  public partial class thankyou : System.Web.UI.Page
+  public partial class Thankyou : System.Web.UI.Page
   {
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -17,7 +17,8 @@ namespace ICT272_assessment1
       if (!string.IsNullOrWhiteSpace(data["nameBox"]))
       {
         name.Text = data["nameBox"];
-      } else
+      }
+      else
       {
         name.Text = "Dear customer";
       }

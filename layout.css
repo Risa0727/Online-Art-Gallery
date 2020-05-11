@@ -1,5 +1,4 @@
-﻿@charset "utf-8";
-/**
+﻿/**
   theme color
   red color: rgba(255, 101, 55, 0.93);
   Gray color: rgba(0, 0, 0, .32);
@@ -271,14 +270,19 @@ footer {
 #form-section #phoneBox, #form-section #commentBox {
   width:100%;
 	border:1px solid #CCC;
+  border-radius: 5px;
 	background:#FFF;
 	margin:0 0 5px;
-	padding:10px;
+  font-size: 1em;
+  padding: 5px 40px;
+  padding-left: 5px;
+  text-transform: uppercase;
+  font-weight: normal;
 }
 #nameBox::placeholder {
   color: red;
 }
-#form-section #commentBox {
+#form-section #MainHolder_commentBox {
   height: 80px;
   resize: none;
   /*margin:10px 0px 10px 0px;*/
@@ -289,7 +293,7 @@ input[type='text']:focus {
   outline: none;
   box-shadow: 0 0 5px 1px rgba(218,60,65, .5);
 }
-  #submitBtn {
+#submitBtn {
   display: inline-block;
   padding: 0.5em 1em;
   text-decoration: none;

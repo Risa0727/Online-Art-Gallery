@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="ICT272_assessment1.index" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="ICT272_assessment1.index" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainHolder" runat="server">
   <section class="intro">
     <h3 id="slogan">Every second is of infinite value.</h3>
@@ -9,7 +9,7 @@
   <section class="maincontent itemLeft">
     <img src="./images/work.jpg">
     <div class="workcontent">
-      <p>We do the work we do because we love it. We like the paintings. We like the people we meet. We like to talk shop. We embrace the art collector. We're simply excited to introduce our awesome arts to you. <a href="./about.html">More ...</a></p>
+      <p>We do the work we do because we love it. We like the paintings. We like the people we meet. We like to talk shop. We embrace the art collector. We're simply excited to introduce our awesome arts to you. <a href="./About.aspx">More ...</a></p>
     </div>
   </section>
   <section class="maincontent itemLeft">
