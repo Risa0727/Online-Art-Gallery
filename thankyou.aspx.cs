@@ -11,16 +11,15 @@ namespace ICT272_assessment1
   {
     protected void Page_Load(object sender, EventArgs e)
     {
-      // get post data
-      System.Collections.Specialized.NameValueCollection data = Request.Form;
-      // check if post data exists
-      if (!string.IsNullOrWhiteSpace(data["nameBox"]))
+      name.Text = "Dear customer";
+
+      // get data
+     if (Session["value"] != null)
       {
-        name.Text = data["nameBox"];
-      }
-      else
-      {
-        name.Text = "Dear customer";
+        String nameBox = (string)Session["value"];
+        if (!string.IsNullOrWhiteSpace(nameBox)) {
+          name.Text = nameBox;
+        }
       }
     }
   }

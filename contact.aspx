@@ -16,7 +16,7 @@
         <div class="form-item"><asp:TextBox ID="phoneBox" placeholder="Your Phone Number" runat="server"></asp:TextBox></div>
         <div class="form-item"><asp:TextBox ID="commentBox" placeholder="Type your Message Here...." runat="server"></asp:TextBox></div>
       </div>
-      <div class="form-item"><asp:Button ID="submitBtn" runat="server" Text="Submit" OnClick="submit_Click" PostBackUrl="~/Thankyou.aspx" ClientIDMode="Static" /></div>
+      <div class="form-item"><asp:Button ID="submitBtn" runat="server" Text="Submit" OnClick="submit_Click" ClientIDMode="Static" /></div>
     </div>
   </section>
   <section id="office-info">

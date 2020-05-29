@@ -16,6 +16,11 @@ namespace ICT272_assessment1
 
     protected void submit_Click(object sender, EventArgs e)
     {
+      // save data as a session
+      Session["value"] = nameBox.Text;
+
+      // send data
+      Response.Redirect("Thankyou.aspx");
 
     }
   }
