@@ -41,10 +41,12 @@
               </ul>
             </div>
           </nav>
-          <div class="inner">
-            <h1>Online Art Gallery</h1>
-            <h2 id="branding">Creating awesomeness</h2>
-          </div>
+          <div class="jumbotron jumbotron-extend">
+            <div class="container-fluid">
+              <h1>Online Art Gallery</h1>
+              <h2 id="branding">Creating awesomeness</h2>
+            </div>
+          </div><%--jumbotron--%>
         </header>
         <main>
           <div>

@@ -82,8 +82,8 @@ p {
 */
 header {
   width: 100%;
-  background: url(./images/hp_header.jpg) center top no-repeat;
-  background-size: 100%;
+  /*background: url(./images/hp_header.jpg) center top no-repeat;
+  background-size: 100%;*/
   padding: 15% 0;
   padding-top: 0;
   text-align: center;
@@ -91,24 +91,26 @@ header {
   color: white;
   display: table;
 }
+.jumbotron-extend {
+  position: relative;
+  height: 100vh;
+  min-height: 300px;
+  background: url(./images/hp_header.jpg) center no-repeat;
+  background-size: cover;
+  vertical-align: middle;
+}
 /** all page has no hero images exceot for toppage */
-  header.noBg {
-    background: none;
-    padding: 7% 0;
-  }
-  header .inner {
-    /*display: table-cell;*/ /* this is for vertical align*/
-    vertical-align: middle;
-  }
+header.noBg {
+  background: none;
+  padding: 7% 0;
+}
   header h1 {
     font-size: 600%;
     font-weight: 600;
     text-shadow: 1px 1px 0 #000;
+    margin-top: 20vh;
   }
-  header #branding {
-    font-size: 200%;
-    font-weight: 200;
-    margin-top: 2%;
+  header #branding {                                           
     text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, 0px 1px 0 #000, 0-1px 0 #000, -1px 0 0 #000, 1px 0 0 #000;
   }
 /** 
@@ -187,6 +189,9 @@ footer {
   Action
 */
 /* Hover Action */
+/* this animation is conflicting with hover action of bootstram 
+  and no idea how to turn off the action.. so far comment out.
+*/
 /*.lineLtoR {
   position: relative;
   display: inline-block;
@@ -326,4 +331,12 @@ input[type='text']:focus {
 }
 .thankyou-info p {
   text-align: center;
+}
+/**
+  responsive
+*/
+@media only screen and (max-width: 600px) {
+  header h1 {
+    font-size: 400%;
+  }
 }
