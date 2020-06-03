@@ -136,12 +136,12 @@ header img {
   main 
 */
 .maincontent, .intro {
-  width: 70vw;/* view point width */
-  height: auto;
+  /*width: 70vw;*//* view point width */
+  /*height: auto;*/
   margin: 0 auto;
   text-align: center;
   border-bottom: 2px solid #012846;
-  padding: 70px;
+  padding: 5%;
 }
 .intro #slogan {
   color: #012846;
@@ -149,20 +149,18 @@ header img {
   font-weight: 600;
   margin-bottom: 20px;
 }
-.intro p {
-  text-align: center;
-}
+
 .maincontent {
   border-bottom: 2px solid #788086;
   padding-bottom: 40px;
 }
   .maincontent img {
-    width: 350px;
-    height: 280px;
+    width: 300px;
+    height: 220px;
     margin-right: 20px;
   }
 .maincontent .workcontent {
-  width: 40vw;
+  /*width: 40vw;*/
   text-align: left;
 }
 .itemLeft {

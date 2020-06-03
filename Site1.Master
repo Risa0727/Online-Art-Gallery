@@ -49,10 +49,8 @@
           </div><%--jumbotron--%>
         </header>
         <main>
-          <div>
-            <asp:ContentPlaceHolder ID="MainHolder" runat="server">
-             </asp:ContentPlaceHolder>
-          </div>
+          <asp:ContentPlaceHolder ID="MainHolder" runat="server">
+          </asp:ContentPlaceHolder>
         </main>
           <footer>
             <address>Copyright&copy; Risa 2020, All rights Reserved.</address>
