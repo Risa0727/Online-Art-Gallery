@@ -216,29 +216,17 @@ footer {
 /**
   Product page
 */
-.product-info p {
-  width: 54%;
-  margin-left: auto;
-  margin-right: auto;
-}
-#product-table {
-  border-collapse: collapse;
-  margin: 0 auto;
-  margin-top: 3vw;
-}
-#product-table tr:nth-child(even),
-#product-table th {
-  border-bottom: dashed 3px  rgba(0, 0, 0, .32);
+.table-category {
+  font-weight: bold;
 }
 .table-img {
-  vertical-align: top;
-  width: 300px;
-  /*background: #f0e68c;*/
-
-}
-.table-img > img {
-  width: 90%;
   margin: 1% auto;
+}
+.border-line {
+  width: 100%;
+  height: auto;
+  margin: 2vh 0;
+  border-bottom: dashed 3px rgba(0, 0, 0, .32);
 }
 .emphasize {
   margin: 10px auto;
