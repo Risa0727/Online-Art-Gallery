@@ -20,14 +20,26 @@
     <form id="form1" runat="server">
       <div id="wrapper">
         <header>
-          <nav>
-            <ul>
-              <li class="logo"><a href="Index.aspx"><img src="./images/logo.png" alt="logo"></a></li>
-              <li><a href="Index.aspx" class="lineLtoR">Home</a></li>
-              <li><a href="./About.aspx" class="lineLtoR">About Us</a></li>
-              <li><a href="./Product.aspx" class="lineLtoR">Products</a></li>
-              <li><a href="./Contact.aspx" class="lineLtoR">Contact</a></li>
-            </ul>
+          <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+            <div class="navbar-brand logo">
+              <a href="Index.aspx"><img src="./images/logo.png" alt="logo"></a>
+            </div>
+            <button class="navbar-toggler" type="button"
+                data-toggle="collapse"
+                data-target="#navmenu1"
+                aria-controls="navmenu1"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu1">
+              <ul class="navbar-nav justify-content-end">
+                <li class="nav-item nav-link"><a href="Index.aspx" class="lineLtoR">Home</a></li>
+                <li class="nav-item nav-link"><a href="./About.aspx" class="lineLtoR">About</a></li>
+                <li class="nav-item nav-link"><a href="./Product.aspx" class="lineLtoR">Products</a></li>
+                <li class="nav-item nav-link"><a href="./Contact.aspx" class="lineLtoR">Contact</a></li>
+              </ul>
+            </div>
           </nav>
           <div class="inner">
             <h1>Online Art Gallery</h1>

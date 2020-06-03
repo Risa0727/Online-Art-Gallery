@@ -13,7 +13,7 @@
 /** all page has NO hero images except for toppage */
 header {
   background: none;
-  padding: 7% 0;
+  /*padding: 7% 0;*/
 }
 header .inner {
   display: none;
