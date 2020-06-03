@@ -52,9 +52,13 @@
           <asp:ContentPlaceHolder ID="MainHolder" runat="server">
           </asp:ContentPlaceHolder>
         </main>
-          <footer>
-            <address>Copyright&copy; Risa 2020, All rights Reserved.</address>
-          </footer>
+        <div class="container-fluid navbar-fixed-bottom">
+          <div class="row">
+            <footer id="footer" class="col-sm-12 col-xs-12">
+              <address>Copyright&copy; Risa 2020, All rights Reserved.</address>
+            </footer>
+          </div>
+        </div>
       </div><%-- wrapper --%>
     </form>
 </body>
