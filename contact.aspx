@@ -3,10 +3,11 @@
   <link href="layoutNoBg.css" rel="stylesheet" type="text/css">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainHolder" runat="server">
-  <section class="contact-info">
-    <h1 class="header-line">Contact Form</h1>
-    <p>Contact us about anything related to our services and products.</p>
-    <p>And we will be in touch.</p>
+  <div class="container">
+  <section class="contact-info row">
+    <h1 class="header-line col-sm-12">Contact Form</h1>
+    <p class="col-sm-12">Contact us about anything related to our services and products.</p>
+    <p class="col-sm-12">And we will be in touch.</p>
   </section>
   <section id="form-section">
     <div id="contactForm">
@@ -21,19 +22,22 @@
   </section>
   <section id="office-info">
         <h2>Our Office</h2>
-        <table>
-		      <tr>
-			      <th>Address</th><td>17 O'Connell, Sydney, Australia</td>
-		      </tr>
-		      <tr>
-			      <th>Email</th><td>info@risa.com.au</td>
-		      </tr>
-		      <tr>
-			      <th>Phone</th><td>0727 0727</td>
-		      </tr>
-		      <tr>
-			      <td colspan="2" id="map"><img src="./images/map.jpg" alt="Map of Office" /></td>
-		      </tr>	
-		  </table>
-      </section>
+        <div class="table-responsive">
+          <table class="table table-hover">
+		        <tr>
+			        <th>Address</th><td>17 O'Connell, Sydney, Australia</td>
+		        </tr>
+		        <tr>
+			        <th>Email</th><td>info@risa.com.au</td>
+		        </tr>
+		        <tr>
+			        <th>Phone</th><td>0727 0727</td>
+		        </tr>
+		        <tr>
+			        <td colspan="2" id="map"><img class="img-fluid" src="./images/map.jpg" alt="Map of Office" /></td>
+		        </tr>	
+		    </table>
+      </div>
+    </section>
+  </div>
 </asp:Content>

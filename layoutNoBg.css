@@ -11,10 +11,10 @@
   Header
 */
 /** all page has NO hero images except for toppage */
-header {
-  background: none;
-  /*padding: 7% 0;*/
-}
-header .inner {
+.jumbotron {
   display: none;
+  /*margin-top: 15vh;*/
+}
+section:nth-child(1) {
+  margin-top: 15vh;
 }

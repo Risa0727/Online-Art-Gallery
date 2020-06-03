@@ -329,8 +329,14 @@ input[type='text']:focus {
 /**
   responsive
 */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 665px) {
   header h1 {
     font-size: 400%;
+  }
+  header nav a {
+    text-decoration: none;
+    color: #012846;
+    font-size: 110%;
+    margin: 0 15px;
   }
 }
